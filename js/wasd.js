@@ -40,10 +40,11 @@ SC.wasd = function () {
     SC.trackPosition.get();
 };
 
+/*
 window.addEventListener('DOMContentLoaded', function () {
     window.setInterval(function () {
         SC.hamburger = SC.hamburger || document.getElementById('menu_hamburger');
         SC.hamburger.textContent = SC.dir.toFixed(3);
     }, 100);
 });
-
+*/
