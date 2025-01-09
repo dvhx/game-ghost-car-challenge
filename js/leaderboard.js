@@ -33,7 +33,7 @@ SC.leaderboard = function () {
             var r = SC.storage.readObject('SC.record.' + t, null);
             if (r) {
                 pr['track' + t] = {
-                    car: Object.keys(SC.cars).indexOf(r.car_name),
+                    car: Object.keys(SC.cars).indexOf(r.car_name) + 1,
                     index: -1,
                     lap_time: r.record_lap_time
                 };
