@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ghost Car Challenge</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="css/splash.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/records.css" type="text/css" />
+    <link rel="stylesheet" href="css/leaderboard.css" type="text/css" />
+    <link rel="stylesheet" href="css/license.css" type="text/css" />
+    <link rel="stylesheet" href="css/car_dialog.css" type="text/css" />
+    <link rel="stylesheet" href="css/button_green_glossy.css" type="text/css" />
+
+    <link rel="shortcut icon" href="image/16.png" type="image/png" />
+  </head>
+  <body>
+
+    <canvas id="canvas" style="position: fixed; left: 0; top: 0; width:100vw; height:100vh;"></canvas>
+
+    <div id="gas" class="control"></div>
+    <div id="brake" class="control"></div>
+
+    <button id="menu" class="control">
+        <span id="menu_hamburger" class="hide">&#9776;</span>
+        <span id="menu_loading"></span>
+    </button>
+
+    <div id="lip" class="hide"><div id="lip_message"></div></div>
+
+    <div id="records" class="hide">
+        <header>
+            <button id="records_car2" class="glossy"><small>Change</small>Car</button>
+            <img id="records_car" src="model/hikari/icon.png">
+            <div class="spacer"></div>
+            <button id="records_prev" class="glossy">Prev.<small>Track</small></button>
+            <h1 id="records_title">Title</h1>
+            <button id="records_next" class="glossy">Next<small>Track</small></button>
+            <div id="more_levels_tooltip" class="tooltip"><span>More levels here</span></div>
+            <div id="spacer_console" class="spacer" style="min-height: 1cm;"></div>
+            <button id="records_championship" class="glossy"></button>
+            <button id="records_settings" class="glossy" style="min-width: 1cm">Menu</button>
+            <button id="records_close">❌</button>
+        </header>
+        <div id="records_container">
+        </div>
+    </div>
+
+    <div id="leaderboard" class="hide">
+        <header>
+            <button id="leaderboard_car2" class="glossy"><small>Change</small>Car</button>
+            <img id="leaderboard_car" src="model/hikari/icon.png">
+            <div class="spacer"></div>
+            <div id="leaderboard_title">Leaderboard
+            <div style="font-size: xx-small">Click on track time to challenge driver</div></div>
+            <div class="spacer"></div>
+            <button id="leaderboard_close" class="glossy">Close</button>
+        </header>
+        <div id="leaderboard_container">
+        </div>
+    </div>
+
+    <div id="license" class="hide">
+        <button id="license_randomize">Random</button>
+        <div class="block">
+            <label>Your nickname</label>
+            <input id="license_name" placeholder="" autofocus maxlength="30">
+        </div>
+        <div class="block">
+            <label>Country</label>
+            <select id="license_country">
+                <option selected disabled></option>
+            </select>
+        </div>
+        <button id="license_submit">Submit</button>
+    </div>
+
+    <img id="intro" class="hide" src="image/intro_none.png">
+
+    <div id="ambient">
+        <input id="ambient_red" type="range" min="0" max="1" step="0.01">
+        <input id="ambient_green" type="range" min="0" max="1" step="0.01">
+        <input id="ambient_blue" type="range" min="0" max="1" step="0.01">
+    </div>
+
+    <div id="car_dialog" class="hide">
+        <canvas id="car_dialog_canvas"></canvas>
+        <button id="car_dialog_close" class="glossy" style="height: 1cm;">Back</button>
+        <h1 id="car_dialog_name">Car</h1>
+        <button id="car_dialog_prev" class="glossy"><small>Prev.</small>Car</button>
+        <button id="car_dialog_next" class="glossy"><small>Next</small>Car</button>
+        <div id="car_dialog_info"></div>
+        <canvas id="radar_chart" style="position: fixed; left: calc(100vw - 30vh - 0.3cm); top: 0.3cm; width: 30vh; height: 30vh;"></canvas>
+        <div id="car_dialog_warning">???</div>
+        <div id="car_dialog_bottom">
+            <button id="car_dialog_choose" class="glossy">Choose car</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/depend/polyfill_startswith.js?version=716"></script>
+    <script type="text/javascript" src="js/depend/glMatrix-0.9.5.min.js?version=716"></script>
+    <script type="text/javascript" src="js/depend/webgl-obj-loader-inverted-x.js?version=716"></script>
+    <script type="text/javascript" src="js/depend/sylvester.src.js?version=716"></script>
+    <script type="text/javascript" src="js/depend/point_in_triangle.js?version=716"></script>
+
+    <script type="text/javascript" src="js/is_touch_device.js?version=716"></script>
+    <script type="text/javascript" src="js/fetch.js?version=716"></script>
+    <script type="text/javascript" src="js/popup.js?version=716"></script>
+    <script type="text/javascript" src="js/storage.js?version=716"></script>
+    <script type="text/javascript">SC.storage.prefix = 'GCC.';</script>
+    <script type="text/javascript" src="js/sound.js?version=716"></script>
+    <script type="text/javascript" src="js/splash.js?version=716"></script>
+    <script type="text/javascript" src="js/spinner2.js?version=716"></script>
+    <script type="text/javascript" src="js/lip.js?version=716"></script>
+    <script type="text/javascript" src="js/utils.js?version=716"></script>
+    <script type="text/javascript" src="js/light.js?version=716"></script>
+    <script type="text/javascript" src="js/texture.js?version=716"></script>
+    <script type="text/javascript" src="js/model.js?version=716"></script>
+    <script type="text/javascript" src="js/shader.js?version=716"></script>
+    <script type="text/javascript" src="js/waiter.js?version=716"></script>
+    <script type="text/javascript" src="js/webgl_canvas.js?version=716"></script>
+    <script type="text/javascript" src="js/keyboard.js?version=716"></script>
+    <script type="text/javascript" src="js/cars.js?version=716"></script>
+    <script type="text/javascript" src="js/car_physics.js?version=716"></script>
+    <script type="text/javascript" src="js/reflection.js?version=716"></script>
+    <script type="text/javascript" src="js/device_orientation.js?version=716"></script>
+    <script type="text/javascript" src="js/audio.js?version=716"></script>
+    <script type="text/javascript" src="js/car_sound.js?version=716"></script>
+    <script type="text/javascript" src="js/lap_counter.js?version=716"></script>
+    <script type="text/javascript" src="js/wasd.js?version=716"></script>
+    <script type="text/javascript" src="js/track_position.js?version=716"></script>
+    <script type="text/javascript" src="js/record_compact.js?version=716"></script>
+    <script type="text/javascript" src="js/record.js?version=716"></script>
+    <script type="text/javascript" src="js/records_show.js?version=716"></script>
+    <script type="text/javascript" src="js/player.js?version=716"></script>
+    <script type="text/javascript" src="js/names.js?version=716"></script>
+    <script type="text/javascript" src="js/banned_names.js?version=716"></script>
+    <script type="text/javascript" src="js/license.js?version=716"></script>
+    <script type="text/javascript" src="js/table.js?version=716"></script>
+    <script type="text/javascript" src="js/tracks.js?version=716"></script>
+    <script type="text/javascript" src="js/emoji_flags.js?version=716"></script>
+    <script type="text/javascript" src="js/skybox.js?version=716"></script>
+    <script type="text/javascript" src="js/menu.js?version=716"></script>
+    <script type="text/javascript" src="js/car_dialog.js?version=716"></script>
+    <script type="text/javascript" src="js/radar_chart.js?version=716"></script>
+    <script type="text/javascript" src="js/unstuck.js?version=716"></script>
+    <script type="text/javascript" src="js/leaderboard.js?version=716"></script>
+    <script type="text/javascript" src="js/index.js?version=716"></script>
+
+  </body>
+</html>

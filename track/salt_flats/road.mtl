@@ -1,0 +1,11 @@
+# Material file for track.obj
+
+newmtl salt_flats.png
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 1.0 1.0 1.0
+	map_Kd ..\..\textures\salt_flats.png
+

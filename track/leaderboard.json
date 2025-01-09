@@ -1,0 +1,602 @@
+[
+ {
+  "name": "dvhx",
+  "country": "Slovakia",
+  "track1": {
+   "car": 7,
+   "lap_time": 17.712,
+   "index": 0
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 34.897,
+   "index": 0
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 30.789,
+   "index": 0
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 48.868,
+   "index": 0
+  },
+  "track5": {
+   "car": 7,
+   "lap_time": 53.091,
+   "index": 0
+  },
+  "track6": {
+   "car": 3,
+   "lap_time": 20.394,
+   "index": 0
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.698,
+   "index": 0
+  },
+  "total": 214.449
+ },
+ {
+  "name": "Tom K. Rogers",
+  "country": "San Marino",
+  "track1": {
+   "car": 7,
+   "lap_time": 17.748,
+   "index": 1
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 34.915,
+   "index": 1
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 30.825,
+   "index": 1
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 48.968,
+   "index": 1
+  },
+  "track5": {
+   "car": 7,
+   "lap_time": 53.093,
+   "index": 1
+  },
+  "track6": {
+   "car": 3,
+   "lap_time": 20.808,
+   "index": 1
+  },
+  "track7": {
+   "car": 7,
+   "lap_time": 8.755,
+   "index": 3
+  },
+  "total": 215.11200000000002
+ },
+ {
+  "name": "Teresa P. James",
+  "country": "Spain",
+  "track1": {
+   "car": 7,
+   "lap_time": 17.759,
+   "index": 2
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 35.931,
+   "index": 8
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 32.295,
+   "index": 12
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 49.324,
+   "index": 3
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 54.172,
+   "index": 12
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 21.897,
+   "index": 10
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.824,
+   "index": 15
+  },
+  "total": 220.202
+ },
+ {
+  "name": "Ricky R. Morris",
+  "country": "Bulgaria",
+  "track1": {
+   "car": 7,
+   "lap_time": 18.007,
+   "index": 5
+  },
+  "track2": {
+   "car": 4,
+   "lap_time": 36.256,
+   "index": 13
+  },
+  "track3": {
+   "car": 4,
+   "lap_time": 33.199,
+   "index": 22
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 50.976,
+   "index": 22
+  },
+  "track5": {
+   "car": 7,
+   "lap_time": 55.303,
+   "index": 31
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 24.055,
+   "index": 30
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.872,
+   "index": 28
+  },
+  "total": 226.668
+ },
+ {
+  "name": "Keith Williams",
+  "country": "Cyprus",
+  "track1": {
+   "car": 3,
+   "lap_time": 18.45,
+   "index": 11
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 35.381,
+   "index": 3
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 31.147,
+   "index": 4
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 49.651,
+   "index": 6
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 53.951,
+   "index": 9
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 21.272,
+   "index": 3
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.763,
+   "index": 4
+  },
+  "total": 218.615
+ },
+ {
+  "name": "Garry E. Barnes",
+  "country": "Botswana",
+  "track1": {
+   "car": 3,
+   "lap_time": 18.688,
+   "index": 15
+  },
+  "track2": {
+   "car": 5,
+   "lap_time": 37.261,
+   "index": 23
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 32.819,
+   "index": 18
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 50.171,
+   "index": 12
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 53.885,
+   "index": 6
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 23.043,
+   "index": 23
+  },
+  "track7": {
+   "car": 7,
+   "lap_time": 8.861,
+   "index": 23
+  },
+  "total": 224.72799999999998
+ },
+ {
+  "name": "Randall Cox",
+  "country": "Cyprus",
+  "track1": {
+   "car": 3,
+   "lap_time": 18.695,
+   "index": 17
+  },
+  "track2": {
+   "car": 5,
+   "lap_time": 37.51,
+   "index": 27
+  },
+  "track3": {
+   "car": 4,
+   "lap_time": 34.472,
+   "index": 37
+  },
+  "track4": {
+   "car": 4,
+   "lap_time": 53.919,
+   "index": 72
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 55.577,
+   "index": 37
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 24.331,
+   "index": 34
+  },
+  "track7": {
+   "car": 5,
+   "lap_time": 9.807,
+   "index": 74
+  },
+  "total": 234.31099999999998
+ },
+ {
+  "name": "Nancy Watson",
+  "country": "Turkey",
+  "track1": {
+   "car": 3,
+   "lap_time": 19.034,
+   "index": 34
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 37.084,
+   "index": 20
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 32.048,
+   "index": 8
+  },
+  "track4": {
+   "car": 3,
+   "lap_time": 52.669,
+   "index": 57
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 56.421,
+   "index": 53
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 26.354,
+   "index": 46
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 9.079,
+   "index": 46
+  },
+  "total": 232.68899999999996
+ },
+ {
+  "name": "Lloyd Murphy",
+  "country": "Austria",
+  "track1": {
+   "car": 3,
+   "lap_time": 19.368,
+   "index": 46
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 36.614,
+   "index": 17
+  },
+  "track3": {
+   "car": 2,
+   "lap_time": 34.795,
+   "index": 40
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 52.54,
+   "index": 53
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 55.875,
+   "index": 43
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 41.119,
+   "index": 135
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.889,
+   "index": 29
+  },
+  "total": 249.20000000000002
+ },
+ {
+  "name": "Lonnie D. Bailey",
+  "country": "Armenia",
+  "track1": {
+   "car": 4,
+   "lap_time": 19.465,
+   "index": 51
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 34.951,
+   "index": 2
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 31.679,
+   "index": 6
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 49.172,
+   "index": 2
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 53.449,
+   "index": 3
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 21.385,
+   "index": 5
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 10.462,
+   "index": 92
+  },
+  "total": 220.563
+ },
+ {
+  "name": "Lonnie K. Price",
+  "country": "Philippines",
+  "track1": {
+   "car": 5,
+   "lap_time": 19.868,
+   "index": 74
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 35.438,
+   "index": 4
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 32.864,
+   "index": 19
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 50.243,
+   "index": 13
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 55.286,
+   "index": 30
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 23.407,
+   "index": 26
+  },
+  "track7": {
+   "car": 7,
+   "lap_time": 8.863,
+   "index": 24
+  },
+  "total": 225.969
+ },
+ {
+  "name": "Lynn R. Powell",
+  "country": "Albania",
+  "track1": {
+   "car": 5,
+   "lap_time": 19.938,
+   "index": 78
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 36.46,
+   "index": 16
+  },
+  "track3": {
+   "car": 4,
+   "lap_time": 32.678,
+   "index": 17
+  },
+  "track4": {
+   "car": 7,
+   "lap_time": 49.671,
+   "index": 7
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 55.26,
+   "index": 28
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 21.903,
+   "index": 11
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.842,
+   "index": 19
+  },
+  "total": 224.75199999999998
+ },
+ {
+  "name": "Joe Thompson",
+  "country": "Spain",
+  "track1": {
+   "car": 3,
+   "lap_time": 20.447,
+   "index": 106
+  },
+  "track2": {
+   "car": 4,
+   "lap_time": 42.195,
+   "index": 87
+  },
+  "track3": {
+   "car": 4,
+   "lap_time": 36.918,
+   "index": 53
+  },
+  "track4": {
+   "car": 4,
+   "lap_time": 56.174,
+   "index": 87
+  },
+  "track5": {
+   "car": 4,
+   "lap_time": 61.618,
+   "index": 108
+  },
+  "track6": {
+   "car": 10,
+   "lap_time": 27.33,
+   "index": 50
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 8.953,
+   "index": 35
+  },
+  "total": 253.63500000000002
+ },
+ {
+  "name": "Nick Ross",
+  "country": "Nicaragua",
+  "track1": {
+   "car": 1,
+   "lap_time": 20.46,
+   "index": 109
+  },
+  "track2": {
+   "car": 2,
+   "lap_time": 38.269,
+   "index": 36
+  },
+  "track3": {
+   "car": 3,
+   "lap_time": 34.908,
+   "index": 41
+  },
+  "track4": {
+   "car": 2,
+   "lap_time": 57.814,
+   "index": 95
+  },
+  "track5": {
+   "car": 2,
+   "lap_time": 58.235,
+   "index": 78
+  },
+  "track6": {
+   "car": 1,
+   "lap_time": 32.556,
+   "index": 97
+  },
+  "track7": {
+   "car": 6,
+   "lap_time": 10.283,
+   "index": 86
+  },
+  "total": 252.52499999999995
+ },
+ {
+  "name": "Jim Brown",
+  "country": "Monaco",
+  "track1": {
+   "car": 4,
+   "lap_time": 24.176,
+   "index": 127
+  },
+  "track2": {
+   "car": 3,
+   "lap_time": 45.469,
+   "index": 121
+  },
+  "track3": {
+   "car": 4,
+   "lap_time": 35.369,
+   "index": 43
+  },
+  "track4": {
+   "car": 3,
+   "lap_time": 55.15,
+   "index": 81
+  },
+  "track5": {
+   "car": 3,
+   "lap_time": 57.31,
+   "index": 69
+  },
+  "track6": {
+   "car": 4,
+   "lap_time": 27.52,
+   "index": 53
+  },
+  "track7": {
+   "car": 9,
+   "lap_time": 13.266,
+   "index": 151
+  },
+  "total": 258.26
+ }
+]

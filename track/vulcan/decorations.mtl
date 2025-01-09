@@ -1,0 +1,29 @@
+# Material file for decorations.obj
+
+newmtl decorations.jpg
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd ..\..\..\..\..\..\home\maly\fatal\track\desert_island\decorations.jpg
+
+newmtl salt_flats.png
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 1.0 1.0 1.0
+	map_Kd ..\..\..\..\..\..\home\maly\fatal\track\salt_flats\salt_flats.png
+
+newmtl vulcan_road.png
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 1.0 1.0 1.0
+	map_Kd vulcan_road.png
+

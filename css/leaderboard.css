@@ -1,0 +1,54 @@
+/* Table of leaderboard */
+
+#leaderboard {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #444444;
+    color: white;
+    font-size: medium;
+    padding: 1ex;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+#leaderboard.hide {
+    display: none;
+}
+
+#leaderboard header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#leaderboard header button {
+    height: 1cm;
+}
+#leaderboard header .spacer {
+    flex: 1;
+}
+#leaderboard_car {
+    max-width: 1.3cm;
+    margin-left: 4px;
+}
+#leaderboard_title {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    min-width: 25%;
+}
+
+#leaderboard_container {
+    overflow-y: scroll;
+    flex: 1;
+}
+
+table.records, table.records td, table.records th {
+    border: 1px solid gray;
+}
+

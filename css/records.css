@@ -1,0 +1,130 @@
+/* Table of track records */
+
+#records {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #444444;
+    color: white;
+    font-size: medium;
+    padding: 1ex;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+#records_car {
+    max-width: 1.3cm;
+    margin: auto;
+}
+
+#records.hide {
+    display: none;
+}
+
+#records_close {
+    display: none;
+}
+
+#records header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#records header .spacer {
+    flex: 1;
+}
+#records header button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-shadow: 0 0 0.5ex black;
+    color: white;
+    width: 1cm;
+    height: 1cm;
+}
+#records h1 {
+    padding: 0.5ex;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    min-width: 25%;
+}
+#records_car2 {
+    margin-right: 0.5ex;
+}
+
+#records_container {
+    overflow-y: scroll;
+    flex: 1;
+}
+
+#records_championship {
+    min-width: 1.2cm;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: green !important;
+    background: url(../image/championship.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table.records {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.records, table.records td, table.records th {
+    border: 1px solid gray;
+}
+table.records tr:active td {
+    background-color: #4477aa;
+}
+table.records tr.me {
+    color: lime;
+}
+table.records tr.recent {
+    color: yellow;
+}
+/*
+table.records tr.blink {
+    background-color: yellow;
+    transition: background-color 0.5s linear;
+}
+*/
+@-webkit-keyframes blink {
+    0% {
+        color: yellow;
+    }
+    20% {
+        color: transparent;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: transparent;
+    }
+    80% {
+        color: yellow;
+    }
+}
+table.records .blink {
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+table.records th {
+    text-align: left;
+}
+
+table.records td.car_name img {
+    width: 2em;
+    margin-right: 0.5ex;
+}
+

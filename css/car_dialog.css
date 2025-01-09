@@ -1,0 +1,81 @@
+/* dialog to choose chart with rotating 3d image of car */
+
+#car_dialog {
+    border: 1px solid black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333333;
+    color: white;
+    user-select: none;
+    font-family: sans-serif;
+}
+#car_dialog.hide {
+    display: none;
+}
+#car_dialog h1 {
+    text-align: center;
+}
+#car_dialog_info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid red;
+    display: none;
+}
+#car_dialog canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#car_dialog button.transparent {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: x-large;
+}
+#car_dialog button.transparent:active {
+    color: green;
+}
+#car_dialog_prev {
+    position: fixed;
+    left: 1ex;
+    top: 50%;
+}
+#car_dialog_next {
+    position: fixed;
+    right: 1ex;
+    top: 50%;
+    width: 2cm;
+}
+#car_dialog_close {
+    position: fixed;
+    left: 1ex;
+    top: 1ex;
+    width: 1.5cm;
+    height: 1.5cm;
+}
+#car_dialog_bottom {
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    border: 0 solid red;
+    bottom: 1.5cm;
+    text-align: center;
+}
+#car_dialog_close {
+    width: 3cm;
+}
+#car_dialog_warning {
+    position: fixed;
+    left: 2cm;
+    bottom: 0.5cm;
+    right: 2cm;
+    text-align: center;
+    color: yellow;
+}

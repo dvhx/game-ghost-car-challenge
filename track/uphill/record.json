@@ -1,0 +1,1090 @@
+[
+ {
+  "index": 0,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 53.091,
+  "posted": "2024-07-17 15:52:19",
+  "country": "Slovakia"
+ },
+ {
+  "index": 1,
+  "player": "Tom K. Rogers",
+  "car": 7,
+  "lap_time": 53.093,
+  "posted": "2024-06-07 16:01:48",
+  "country": "San Marino"
+ },
+ {
+  "index": 2,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 53.386,
+  "posted": "2024-08-10 08:00:31",
+  "country": "Slovakia"
+ },
+ {
+  "index": 3,
+  "player": "Lonnie D. Bailey",
+  "car": 3,
+  "lap_time": 53.449,
+  "posted": "2024-03-25 10:20:19",
+  "country": "Armenia"
+ },
+ {
+  "index": 4,
+  "player": "Tom K. Rogers",
+  "car": 7,
+  "lap_time": 53.469,
+  "posted": "2024-06-07 15:57:17",
+  "country": "San Marino"
+ },
+ {
+  "index": 5,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 53.867,
+  "posted": "2024-07-18 14:10:25",
+  "country": "Slovakia"
+ },
+ {
+  "index": 6,
+  "player": "Garry E. Barnes",
+  "car": 3,
+  "lap_time": 53.885,
+  "posted": "2024-09-23 11:41:28",
+  "country": "Botswana"
+ },
+ {
+  "index": 7,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 53.921,
+  "posted": "2024-06-01 16:31:17",
+  "country": "Slovakia"
+ },
+ {
+  "index": 8,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 53.934,
+  "posted": "2024-08-08 11:22:58",
+  "country": "Slovakia"
+ },
+ {
+  "index": 9,
+  "player": "Keith Williams",
+  "car": 3,
+  "lap_time": 53.951,
+  "posted": "2022-11-27 04:30:00",
+  "country": "Cyprus"
+ },
+ {
+  "index": 10,
+  "player": "Leslie D. Adams",
+  "car": 3,
+  "lap_time": 54.085,
+  "posted": "2022-06-27 12:57:36",
+  "country": "Vietnam"
+ },
+ {
+  "index": 11,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 54.103,
+  "posted": "2024-07-13 23:10:37",
+  "country": "Slovakia"
+ },
+ {
+  "index": 12,
+  "player": "Teresa P. James",
+  "car": 3,
+  "lap_time": 54.172,
+  "posted": "2021-09-05 11:19:54",
+  "country": "Spain"
+ },
+ {
+  "index": 13,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 54.173,
+  "posted": "2024-05-26 13:36:01",
+  "country": "Slovakia"
+ },
+ {
+  "index": 14,
+  "player": "Keith Williams",
+  "car": 3,
+  "lap_time": 54.214,
+  "posted": "2023-07-10 11:07:20",
+  "country": "Cyprus"
+ },
+ {
+  "index": 15,
+  "player": "Keith Williams",
+  "car": 3,
+  "lap_time": 54.294,
+  "posted": "2022-11-07 07:40:57",
+  "country": "Cyprus"
+ },
+ {
+  "index": 16,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 54.485,
+  "posted": "2024-06-30 05:53:37",
+  "country": "Slovakia"
+ },
+ {
+  "index": 17,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 54.552,
+  "posted": "2024-05-26 13:38:45",
+  "country": "Slovakia"
+ },
+ {
+  "index": 18,
+  "player": "Jackie F. Thomas",
+  "car": 3,
+  "lap_time": 54.613,
+  "posted": "2022-03-30 18:27:52",
+  "country": "Saudi Arabia"
+ },
+ {
+  "index": 19,
+  "player": "Leslie D. Adams",
+  "car": 3,
+  "lap_time": 54.753,
+  "posted": "2022-06-27 12:56:21",
+  "country": "Vietnam"
+ },
+ {
+  "index": 20,
+  "player": "Leon J. Rodriguez",
+  "car": 7,
+  "lap_time": 54.878,
+  "posted": "2024-06-23 14:02:41",
+  "country": "Malaysia"
+ },
+ {
+  "index": 21,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 54.9,
+  "posted": "2024-05-26 13:37:21",
+  "country": "Slovakia"
+ },
+ {
+  "index": 22,
+  "player": "Keith Williams",
+  "car": 3,
+  "lap_time": 54.964,
+  "posted": "2022-11-07 07:39:48",
+  "country": "Cyprus"
+ },
+ {
+  "index": 23,
+  "player": "Alan W. Howard",
+  "car": 7,
+  "lap_time": 54.982,
+  "posted": "2022-01-24 14:49:12",
+  "country": "South Korea"
+ },
+ {
+  "index": 24,
+  "player": "Leon J. Rodriguez",
+  "car": 7,
+  "lap_time": 55.1,
+  "posted": "2024-06-23 14:07:47",
+  "country": "Malaysia"
+ },
+ {
+  "index": 25,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 55.187,
+  "posted": "2022-04-02 19:13:27",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 26,
+  "player": "Stephanie F. Edwards",
+  "car": 3,
+  "lap_time": 55.21,
+  "posted": "2021-08-18 16:34:32",
+  "country": "Monaco"
+ },
+ {
+  "index": 27,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 55.219,
+  "posted": "2022-04-02 14:00:03",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 28,
+  "player": "Lynn R. Powell",
+  "car": 3,
+  "lap_time": 55.26,
+  "posted": "2021-04-15 16:39:57",
+  "country": "Albania"
+ },
+ {
+  "index": 29,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 55.286,
+  "posted": "2022-04-02 14:23:14",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 30,
+  "player": "Lonnie K. Price",
+  "car": 3,
+  "lap_time": 55.286,
+  "posted": "2022-10-24 17:40:14",
+  "country": "Philippines"
+ },
+ {
+  "index": 31,
+  "player": "Ricky R. Morris",
+  "car": 7,
+  "lap_time": 55.303,
+  "posted": "2020-07-16 17:43:43",
+  "country": "Bulgaria"
+ },
+ {
+  "index": 32,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 55.317,
+  "posted": "2024-05-25 19:26:12",
+  "country": "Slovakia"
+ },
+ {
+  "index": 33,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 55.337,
+  "posted": "2022-04-02 19:14:36",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 34,
+  "player": "Kirk C. Rodriguez",
+  "car": 3,
+  "lap_time": 55.355,
+  "posted": "2023-05-06 21:09:07",
+  "country": "Angola"
+ },
+ {
+  "index": 35,
+  "player": "Lynn R. Powell",
+  "car": 4,
+  "lap_time": 55.356,
+  "posted": "2021-04-14 23:16:03",
+  "country": "Albania"
+ },
+ {
+  "index": 36,
+  "player": "Phillip A. Sanders",
+  "car": 7,
+  "lap_time": 55.456,
+  "posted": "2021-11-14 16:45:56",
+  "country": "Italy"
+ },
+ {
+  "index": 37,
+  "player": "Randall Cox",
+  "car": 3,
+  "lap_time": 55.577,
+  "posted": "2020-02-03 15:12:43",
+  "country": "Cyprus"
+ },
+ {
+  "index": 38,
+  "player": "Paul M. Allen",
+  "car": 3,
+  "lap_time": 55.587,
+  "posted": "2020-11-23 18:58:47",
+  "country": "Kenya"
+ },
+ {
+  "index": 39,
+  "player": "Alan W. Howard",
+  "car": 7,
+  "lap_time": 55.654,
+  "posted": "2022-01-24 14:53:38",
+  "country": "South Korea"
+ },
+ {
+  "index": 40,
+  "player": "dvhx",
+  "car": 3,
+  "lap_time": 55.853,
+  "posted": "2024-05-25 20:09:10",
+  "country": "Slovakia"
+ },
+ {
+  "index": 41,
+  "player": "Stephanie F. Edwards",
+  "car": 3,
+  "lap_time": 55.859,
+  "posted": "2021-08-18 16:30:47",
+  "country": "Monaco"
+ },
+ {
+  "index": 42,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 55.87,
+  "posted": "2022-04-02 14:19:09",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 43,
+  "player": "Lloyd Murphy",
+  "car": 3,
+  "lap_time": 55.875,
+  "posted": "2022-03-19 23:16:32",
+  "country": "Austria"
+ },
+ {
+  "index": 44,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 56.002,
+  "posted": "2022-04-02 13:58:57",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 45,
+  "player": "Lynn R. Powell",
+  "car": 3,
+  "lap_time": 56.042,
+  "posted": "2021-04-14 23:14:41",
+  "country": "Albania"
+ },
+ {
+  "index": 46,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 56.088,
+  "posted": "2024-07-13 23:05:15",
+  "country": "Slovakia"
+ },
+ {
+  "index": 47,
+  "player": "Alan W. Howard",
+  "car": 4,
+  "lap_time": 56.137,
+  "posted": "2022-01-24 14:56:17",
+  "country": "South Korea"
+ },
+ {
+  "index": 48,
+  "player": "dvhx",
+  "car": 3,
+  "lap_time": 56.157,
+  "posted": "2024-05-25 20:07:48",
+  "country": "Slovakia"
+ },
+ {
+  "index": 49,
+  "player": "Randall Cox",
+  "car": 4,
+  "lap_time": 56.241,
+  "posted": "2020-01-24 18:11:51",
+  "country": "Cyprus"
+ },
+ {
+  "index": 50,
+  "player": "Jim H. Jenkins",
+  "car": 3,
+  "lap_time": 56.319,
+  "posted": "2022-04-03 09:51:28",
+  "country": "Chad"
+ },
+ {
+  "index": 51,
+  "player": "Dan R. Morris",
+  "car": 7,
+  "lap_time": 56.338,
+  "posted": "2021-03-12 10:06:23",
+  "country": "Sierra Leone"
+ },
+ {
+  "index": 52,
+  "player": "Gail C. Young",
+  "car": 7,
+  "lap_time": 56.347,
+  "posted": "2022-04-17 15:05:16",
+  "country": "Israel"
+ },
+ {
+  "index": 53,
+  "player": "Nancy Watson",
+  "car": 3,
+  "lap_time": 56.421,
+  "posted": "2022-01-21 17:48:50",
+  "country": "Turkey"
+ },
+ {
+  "index": 54,
+  "player": "Stephanie F. Edwards",
+  "car": 3,
+  "lap_time": 56.48,
+  "posted": "2021-08-18 16:29:19",
+  "country": "Monaco"
+ },
+ {
+  "index": 55,
+  "player": "Danny S. Roberts",
+  "car": 5,
+  "lap_time": 56.509,
+  "posted": "2023-01-31 05:52:12",
+  "country": "Singapore"
+ },
+ {
+  "index": 56,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 56.555,
+  "posted": "2022-04-02 14:17:58",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 57,
+  "player": "Rick L. Sanchez",
+  "car": 4,
+  "lap_time": 56.571,
+  "posted": "2020-06-21 14:06:14",
+  "country": "Haiti"
+ },
+ {
+  "index": 58,
+  "player": "dvhx",
+  "car": 7,
+  "lap_time": 56.647,
+  "posted": "2024-07-01 06:43:52",
+  "country": "Slovakia"
+ },
+ {
+  "index": 59,
+  "player": "Claudia L. Flores",
+  "car": 3,
+  "lap_time": 56.654,
+  "posted": "2022-04-02 14:06:41",
+  "country": "Zimbabwe"
+ },
+ {
+  "index": 60,
+  "player": "Joel P. Thomas",
+  "car": 3,
+  "lap_time": 56.764,
+  "posted": "2019-12-18 17:07:22",
+  "country": "Uganda"
+ },
+ {
+  "index": 61,
+  "player": "Randall Cox",
+  "car": 4,
+  "lap_time": 56.959,
+  "posted": "2020-01-26 09:39:44",
+  "country": "Cyprus"
+ },
+ {
+  "index": 62,
+  "player": "Phillip A. Sanders",
+  "car": 4,
+  "lap_time": 57.072,
+  "posted": "2021-11-14 16:34:06",
+  "country": "Italy"
+ },
+ {
+  "index": 63,
+  "player": "Kerry G. Hughes",
+  "car": 4,
+  "lap_time": 57.134,
+  "posted": "2022-10-08 03:48:07",
+  "country": "Latvia"
+ },
+ {
+  "index": 64,
+  "player": "Leon J. Rodriguez",
+  "car": 7,
+  "lap_time": 57.162,
+  "posted": "2024-06-23 14:04:23",
+  "country": "Malaysia"
+ },
+ {
+  "index": 65,
+  "player": "Phillip A. Sanders",
+  "car": 3,
+  "lap_time": 57.241,
+  "posted": "2021-11-14 16:43:17",
+  "country": "Italy"
+ },
+ {
+  "index": 66,
+  "player": "Perry V. Evans",
+  "car": 5,
+  "lap_time": 57.247,
+  "posted": "2020-06-21 13:51:27",
+  "country": "Croatia"
+ },
+ {
+  "index": 67,
+  "player": "Gail C. Young",
+  "car": 4,
+  "lap_time": 57.254,
+  "posted": "2022-04-18 11:22:55",
+  "country": "Israel"
+ },
+ {
+  "index": 68,
+  "player": "Lonnie D. Bailey",
+  "car": 2,
+  "lap_time": 57.262,
+  "posted": "2024-03-26 12:52:54",
+  "country": "Armenia"
+ },
+ {
+  "index": 69,
+  "player": "Jim Brown",
+  "car": 3,
+  "lap_time": 57.31,
+  "posted": "2023-10-27 00:12:05",
+  "country": "Monaco"
+ },
+ {
+  "index": 70,
+  "player": "Leon J. Rodriguez",
+  "car": 3,
+  "lap_time": 57.314,
+  "posted": "2024-06-23 23:16:45",
+  "country": "Malaysia"
+ },
+ {
+  "index": 71,
+  "player": "Phillip A. Sanders",
+  "car": 7,
+  "lap_time": 57.633,
+  "posted": "2021-11-14 16:47:20",
+  "country": "Italy"
+ },
+ {
+  "index": 72,
+  "player": "Phillip A. Sanders",
+  "car": 4,
+  "lap_time": 57.708,
+  "posted": "2021-11-14 16:24:44",
+  "country": "Italy"
+ },
+ {
+  "index": 73,
+  "player": "Leon J. Rodriguez",
+  "car": 7,
+  "lap_time": 57.968,
+  "posted": "2024-06-23 22:19:46",
+  "country": "Malaysia"
+ },
+ {
+  "index": 74,
+  "player": "Leon J. Rodriguez",
+  "car": 5,
+  "lap_time": 58.015,
+  "posted": "2024-06-23 14:01:13",
+  "country": "Malaysia"
+ },
+ {
+  "index": 75,
+  "player": "Stephanie F. Edwards",
+  "car": 3,
+  "lap_time": 58.073,
+  "posted": "2021-08-18 16:27:49",
+  "country": "Monaco"
+ },
+ {
+  "index": 76,
+  "player": "Leon J. Rodriguez",
+  "car": 7,
+  "lap_time": 58.17,
+  "posted": "2024-06-23 14:09:33",
+  "country": "Malaysia"
+ },
+ {
+  "index": 77,
+  "player": "Phillip A. Sanders",
+  "car": 4,
+  "lap_time": 58.209,
+  "posted": "2021-11-14 16:19:23",
+  "country": "Italy"
+ },
+ {
+  "index": 78,
+  "player": "Nick Ross",
+  "car": 2,
+  "lap_time": 58.235,
+  "posted": "2019-12-11 23:22:55",
+  "country": "Nicaragua"
+ },
+ {
+  "index": 79,
+  "player": "Joel P. Thomas",
+  "car": 5,
+  "lap_time": 58.375,
+  "posted": "2019-12-18 17:08:50",
+  "country": "Uganda"
+ },
+ {
+  "index": 80,
+  "player": "Dan R. Morris",
+  "car": 5,
+  "lap_time": 58.887,
+  "posted": "2021-03-12 09:59:53",
+  "country": "Sierra Leone"
+ },
+ {
+  "index": 81,
+  "player": "Jim Brown",
+  "car": 3,
+  "lap_time": 59.03,
+  "posted": "2023-10-11 02:39:55",
+  "country": "Monaco"
+ },
+ {
+  "index": 82,
+  "player": "Joel P. Thomas",
+  "car": 7,
+  "lap_time": 59.112,
+  "posted": "2019-12-18 17:05:03",
+  "country": "Uganda"
+ },
+ {
+  "index": 83,
+  "player": "Lynn N. Diaz",
+  "car": 7,
+  "lap_time": 59.163,
+  "posted": "2024-08-14 05:24:48",
+  "country": "Bangladesh"
+ },
+ {
+  "index": 84,
+  "player": "Leon J. Rodriguez",
+  "car": 7,
+  "lap_time": 59.3,
+  "posted": "2024-06-23 21:32:19",
+  "country": "Malaysia"
+ },
+ {
+  "index": 85,
+  "player": "Phillip A. Sanders",
+  "car": 4,
+  "lap_time": 59.306,
+  "posted": "2021-11-14 16:14:32",
+  "country": "Italy"
+ },
+ {
+  "index": 86,
+  "player": "Leon J. Rodriguez",
+  "car": 3,
+  "lap_time": 59.338,
+  "posted": "2024-06-23 14:06:00",
+  "country": "Malaysia"
+ },
+ {
+  "index": 87,
+  "player": "Mark J. Jackson",
+  "car": 4,
+  "lap_time": 59.481,
+  "posted": "2023-05-18 16:13:04",
+  "country": "Italy"
+ },
+ {
+  "index": 88,
+  "player": "Keith Williams",
+  "car": 2,
+  "lap_time": 59.539,
+  "posted": "2023-01-26 09:30:40",
+  "country": "Cyprus"
+ },
+ {
+  "index": 89,
+  "player": "Gail C. Young",
+  "car": 7,
+  "lap_time": 59.552,
+  "posted": "2022-04-17 17:12:00",
+  "country": "Israel"
+ },
+ {
+  "index": 90,
+  "player": "Daniel T. Nelson",
+  "car": 7,
+  "lap_time": 59.595,
+  "posted": "2023-12-05 15:05:15",
+  "country": "Kyrgyzstan"
+ },
+ {
+  "index": 91,
+  "player": "Paul M. Allen",
+  "car": 1,
+  "lap_time": 59.69,
+  "posted": "2020-11-23 18:56:16",
+  "country": "Kenya"
+ },
+ {
+  "index": 92,
+  "player": "Jeffrey J. Rodriguez",
+  "car": 7,
+  "lap_time": 59.71,
+  "posted": "2024-07-26 20:11:29",
+  "country": "South Africa"
+ },
+ {
+  "index": 93,
+  "player": "dvhx",
+  "car": 2,
+  "lap_time": 59.75,
+  "posted": "2024-05-25 14:09:15",
+  "country": "Slovakia"
+ },
+ {
+  "index": 94,
+  "player": "Warren L. Wilson",
+  "car": 5,
+  "lap_time": 59.796,
+  "posted": "2023-08-03 20:54:12",
+  "country": "Saudi Arabia"
+ },
+ {
+  "index": 95,
+  "player": "Nick Ross",
+  "car": 1,
+  "lap_time": 59.806,
+  "posted": "2019-12-11 23:16:18",
+  "country": "Nicaragua"
+ },
+ {
+  "index": 96,
+  "player": "Leslie D. Adams",
+  "car": 5,
+  "lap_time": 60.218,
+  "posted": "2022-05-07 16:07:10",
+  "country": "Vietnam"
+ },
+ {
+  "index": 97,
+  "player": "Nancy Watson",
+  "car": 3,
+  "lap_time": 60.224,
+  "posted": "2021-05-02 12:00:12",
+  "country": "Turkey"
+ },
+ {
+  "index": 98,
+  "player": "Leon S. Cox",
+  "car": 3,
+  "lap_time": 60.315,
+  "posted": "2020-07-16 11:43:20",
+  "country": "Bangladesh"
+ },
+ {
+  "index": 99,
+  "player": "Jim Brown",
+  "car": 4,
+  "lap_time": 60.355,
+  "posted": "2023-10-28 13:49:06",
+  "country": "Monaco"
+ },
+ {
+  "index": 100,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 60.447,
+  "posted": "2021-09-08 10:55:28",
+  "country": "Austria"
+ },
+ {
+  "index": 101,
+  "player": "William J. King",
+  "car": 4,
+  "lap_time": 60.536,
+  "posted": "2022-03-07 14:07:03",
+  "country": "Iraq"
+ },
+ {
+  "index": 102,
+  "player": "Gail C. Young",
+  "car": 8,
+  "lap_time": 60.918,
+  "posted": "2022-04-17 16:57:30",
+  "country": "Israel"
+ },
+ {
+  "index": 103,
+  "player": "dvhx",
+  "car": 8,
+  "lap_time": 60.931,
+  "posted": "2024-05-25 14:22:42",
+  "country": "Slovakia"
+ },
+ {
+  "index": 104,
+  "player": "dvhx",
+  "car": 8,
+  "lap_time": 60.938,
+  "posted": "2024-05-25 19:24:33",
+  "country": "Slovakia"
+ },
+ {
+  "index": 105,
+  "player": "Christine J. Campbell",
+  "car": 7,
+  "lap_time": 61.316,
+  "posted": "2023-11-12 18:47:07",
+  "country": "Puerto Rico"
+ },
+ {
+  "index": 106,
+  "player": "dvhx",
+  "car": 8,
+  "lap_time": 61.366,
+  "posted": "2024-05-25 14:33:39",
+  "country": "Slovakia"
+ },
+ {
+  "index": 107,
+  "player": "Jeffrey J. Rodriguez",
+  "car": 7,
+  "lap_time": 61.51,
+  "posted": "2024-07-24 15:15:42",
+  "country": "South Africa"
+ },
+ {
+  "index": 108,
+  "player": "Joe Thompson",
+  "car": 4,
+  "lap_time": 61.618,
+  "posted": "2019-12-12 10:42:38",
+  "country": "Spain"
+ },
+ {
+  "index": 109,
+  "player": "Lynn G. Jones",
+  "car": 7,
+  "lap_time": 61.711,
+  "posted": "2024-07-27 10:55:19",
+  "country": "Tajikistan"
+ },
+ {
+  "index": 110,
+  "player": "Gail C. Young",
+  "car": 8,
+  "lap_time": 61.804,
+  "posted": "2022-04-17 16:45:52",
+  "country": "Israel"
+ },
+ {
+  "index": 111,
+  "player": "Leroy E. Gonzales",
+  "car": 5,
+  "lap_time": 61.964,
+  "posted": "2023-12-06 09:31:29",
+  "country": "New Zealand"
+ },
+ {
+  "index": 112,
+  "player": "Leslie J. Torres",
+  "car": 8,
+  "lap_time": 62.113,
+  "posted": "2025-01-06 13:57:42",
+  "country": "Niger"
+ },
+ {
+  "index": 113,
+  "player": "Edwin C. Lee",
+  "car": 7,
+  "lap_time": 62.17,
+  "posted": "2020-12-03 06:38:46",
+  "country": "Central African Republic"
+ },
+ {
+  "index": 114,
+  "player": "Daniel T. Nelson",
+  "car": 7,
+  "lap_time": 62.576,
+  "posted": "2023-12-05 15:06:43",
+  "country": "Kyrgyzstan"
+ },
+ {
+  "index": 115,
+  "player": "Gail C. Young",
+  "car": 6,
+  "lap_time": 62.585,
+  "posted": "2022-04-18 11:34:18",
+  "country": "Israel"
+ },
+ {
+  "index": 116,
+  "player": "Jim Brown",
+  "car": 3,
+  "lap_time": 62.957,
+  "posted": "2023-10-28 13:47:41",
+  "country": "Monaco"
+ },
+ {
+  "index": 117,
+  "player": "Gail C. Young",
+  "car": 8,
+  "lap_time": 63.111,
+  "posted": "2022-04-17 16:44:35",
+  "country": "Israel"
+ },
+ {
+  "index": 118,
+  "player": "Leon J. Rodriguez",
+  "car": 5,
+  "lap_time": 63.396,
+  "posted": "2024-06-23 13:59:37",
+  "country": "Malaysia"
+ },
+ {
+  "index": 119,
+  "player": "Leon J. Rodriguez",
+  "car": 1,
+  "lap_time": 63.583,
+  "posted": "2024-06-23 23:15:23",
+  "country": "Malaysia"
+ },
+ {
+  "index": 120,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 63.874,
+  "posted": "2021-09-09 10:23:48",
+  "country": "Austria"
+ },
+ {
+  "index": 121,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 64.522,
+  "posted": "2021-09-08 11:07:07",
+  "country": "Austria"
+ },
+ {
+  "index": 122,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 64.943,
+  "posted": "2021-09-09 10:28:30",
+  "country": "Austria"
+ },
+ {
+  "index": 123,
+  "player": "Greg D. Campbell",
+  "car": 8,
+  "lap_time": 65.42,
+  "posted": "2023-01-28 14:57:09",
+  "country": "Lebanon"
+ },
+ {
+  "index": 124,
+  "player": "Gail C. Young",
+  "car": 6,
+  "lap_time": 65.584,
+  "posted": "2022-04-18 11:31:53",
+  "country": "Israel"
+ },
+ {
+  "index": 125,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 66.397,
+  "posted": "2021-09-08 10:48:04",
+  "country": "Austria"
+ },
+ {
+  "index": 126,
+  "player": "Nancy Watson",
+  "car": 4,
+  "lap_time": 67.071,
+  "posted": "2022-01-21 17:04:40",
+  "country": "Turkey"
+ },
+ {
+  "index": 127,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 67.699,
+  "posted": "2021-09-08 11:00:36",
+  "country": "Austria"
+ },
+ {
+  "index": 128,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 69.053,
+  "posted": "2021-09-09 10:20:47",
+  "country": "Austria"
+ },
+ {
+  "index": 129,
+  "player": "Wesley J. Jenkins",
+  "car": 7,
+  "lap_time": 70.304,
+  "posted": "2020-02-01 09:13:09",
+  "country": "Sri Lanka"
+ },
+ {
+  "index": 130,
+  "player": "Gloria P. Ramirez",
+  "car": 8,
+  "lap_time": 70.834,
+  "posted": "2023-03-25 18:43:05",
+  "country": "Zambia"
+ },
+ {
+  "index": 131,
+  "player": "Lorraine A. Bennett",
+  "car": 4,
+  "lap_time": 71.259,
+  "posted": "2021-09-09 10:30:16",
+  "country": "Austria"
+ },
+ {
+  "index": 132,
+  "player": "Bradley K. Roberts",
+  "car": 8,
+  "lap_time": 72.108,
+  "posted": "2023-11-27 08:02:44",
+  "country": "Portugal"
+ },
+ {
+  "index": 133,
+  "player": "Mark J. Jackson",
+  "car": 4,
+  "lap_time": 73.542,
+  "posted": "2023-05-18 16:10:14",
+  "country": "Italy"
+ },
+ {
+  "index": 134,
+  "player": "Jeffrey J. Rodriguez",
+  "car": 7,
+  "lap_time": 75.483,
+  "posted": "2024-07-24 15:10:53",
+  "country": "South Africa"
+ },
+ {
+  "index": 135,
+  "player": "Leon J. Rodriguez",
+  "car": 5,
+  "lap_time": 79.982,
+  "posted": "2024-06-23 13:58:21",
+  "country": "Malaysia"
+ }
+]

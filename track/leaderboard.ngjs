@@ -1,0 +1,72 @@
+#!/usr/bin/env ngspicejs
+// Read all record.json and create leaderboard
+// linter: ngspicejs-lint
+"use strict";
+
+var t1 = file_read_json('downtown/record.json');
+var t2 = file_read_json('desert_island/record.json');
+var t3 = file_read_json('salt_flats/record.json');
+var t4 = file_read_json('midnight/record.json');
+var t5 = file_read_json('uphill/record.json');
+var t6 = file_read_json('go_kart/record.json');
+var t7 = file_read_json('vulcan/record.json');
+
+var tracks = [
+    t1,t2,t3,t4,t5,t6,t7
+];
+
+var player = {};
+tracks.forEach((track,ti) => {
+    track.forEach((record) => {
+        player[record.player] = player[record.player] || {
+            lap_time: {},
+            car: {},
+            index: {}
+        };
+        player[record.player].country = record.country;
+        player[record.player].lap_time[ti] = player[record.player].lap_time[ti] || 999;
+        if (record.lap_time < player[record.player].lap_time[ti]) {
+            player[record.player].lap_time[ti] = record.lap_time;
+            player[record.player].car[ti] = record.car;
+            player[record.player].index[ti] = record.index;
+        }
+        //echo(ti, record.player, record.lap_time);
+    });
+});
+
+file_write_json('leaderboard.json', player, 1);
+
+for (var k in player) {
+    if (Object.keys(player[k].lap_time).length !== tracks.length) {
+        delete player[k];
+    }
+    if (player[k]) {
+        player[k].total = 0;
+        for (var t in player[k].lap_time) {
+            player[k].total += player[k].lap_time[t];
+        }
+    }
+}
+
+// flatten it into table
+var table = [];
+for (var name in player) {
+    var o = {
+        name,
+        country: player[name].country,
+        track1: {car: player[name].car[0], lap_time: player[name].lap_time[0], index: player[name].index[0]},
+        track2: {car: player[name].car[1], lap_time: player[name].lap_time[1], index: player[name].index[1]},
+        track3: {car: player[name].car[2], lap_time: player[name].lap_time[2], index: player[name].index[2]},
+        track4: {car: player[name].car[3], lap_time: player[name].lap_time[3], index: player[name].index[3]},
+        track5: {car: player[name].car[4], lap_time: player[name].lap_time[4], index: player[name].index[4]},
+        track6: {car: player[name].car[5], lap_time: player[name].lap_time[5], index: player[name].index[5]},
+        track7: {car: player[name].car[6], lap_time: player[name].lap_time[6], index: player[name].index[6]},
+        total: player[name].total
+    };
+    table.push(o);
+
+}
+file_write_json('leaderboard.json', table, 1);
+echo(Object.keys(player).length);
+exit(1);
+

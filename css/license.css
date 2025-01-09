@@ -1,0 +1,54 @@
+/* Driver's license */
+
+#license {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333333;
+    color: white;
+    padding: 1ex;
+    display: flex;
+    user-select: text;
+    box-sizing: border-box;
+}
+
+#license.hide {
+    display: none;
+}
+
+#license div.block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 0.5ex;
+    padding-right: 0.5ex;
+}
+
+#license label {
+    font-weight: bold;
+}
+
+#license input, #license select {
+    height: 1cm;
+    box-sizing: border-box;
+}
+
+#license nav {
+    display: flex;
+    flex-direction: column;
+/*
+    align-items: center;
+    justify-content: center;
+*/
+}
+#license button {
+    margin: 0;
+    max-height: 1cm;
+    max-height: 2cm;
+}
+#license .bad {
+    background-color: pink;
+}
+

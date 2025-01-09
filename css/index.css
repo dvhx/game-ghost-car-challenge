@@ -1,0 +1,159 @@
+html {
+    touch-action: manipulation;
+    user-select: none;
+}
+body {
+    color: white;
+    background-color: #333333;
+    font-family: sans-serif;
+}
+.car {
+    width: 2cm;
+    height: 1.5cm;
+    user-select: none;
+    background-color: #0000ff33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.control {
+    min-width: 1cm;
+    min-height: 1cm;
+    color: yellow;
+    font-size: large;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    text-shadow: 0 0 0.5ex black;
+    outline: 0 solid red;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gas {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 18vw;
+    bottom: 0;
+}
+#brake {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 18vw;
+    bottom: 0;
+}
+#menu {
+    position: fixed;
+    width: 3cm;
+    left: calc(50vw - 1.5cm);
+    bottom: 0;
+}
+#menu .hide {
+    display: none;
+}
+nav.top.hide {
+    display: none;
+}
+nav.top {
+    position: fixed;
+    top: 0;
+    left: 2cm;
+    right: 2cm;
+    outline: 0 solid lime;
+    display: flex;
+    padding: 0.5ex;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+nav.top div {
+    flex: 1;
+    text-align: center;
+}
+
+#intro {
+    pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+}
+#intro.hide {
+    display: none;
+}
+#ambient {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+#lip {
+    position: fixed;
+    top: 0;
+    left: 18vw;
+    right: 18vw;
+    border: 0 solid red;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    text-shadow: 0 0 2px black;
+    pointer-events: none;
+}
+#lip.error {
+    color: red;
+}
+#lip_message {
+    pointer-events: auto;
+    background-color: #333333aa;
+    display: inline-block;
+    padding: 1ex;
+    border-bottom-right-radius: 1ex;
+    border-bottom-left-radius: 1ex;
+}
+#lip.hide {
+    display: none;
+}
+
+/* tooltip to show next level */
+
+.tooltip {
+    position: relative;
+    display: none;
+    transition: opacity 0.3s linear;
+    opacity: 0;
+}
+
+.tooltip span {
+    left: -3em;
+    top: 2em;
+    transition: top 0.2s;
+    position: absolute;
+    background: #000000;
+    background: #000000cc;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 1ex;
+    padding: 1ex;
+    white-space: nowrap;
+}
+
+.tooltip span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 2em;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #000000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+
+}
