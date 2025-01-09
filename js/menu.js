@@ -10,7 +10,7 @@ SC.onTrackMenu = function () {
     // Menu shown on racing track
     SC.pause = true;
     SC.carSound.stop();
-    SC.popup(['Continue', 'Restart lap', 'Change track, car or opponent', 'Fullscreen', 'Landscape'], function (aItem) {
+    SC.popup(['Continue', 'Restart lap', 'Change track, car or opponent'], function (aItem) {
         switch (aItem) {
         case 'Continue':
             SC.pause = false;
