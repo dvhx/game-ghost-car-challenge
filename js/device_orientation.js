@@ -1,6 +1,7 @@
 // Use device orientation to steer the car
 "use strict";
-// globals: document, window, screen
+// global: document, window, screen, alert, console
+// linter: ngspicejs-lint
 
 var SC = window.SC || {};
 
@@ -12,7 +13,7 @@ SC.dir = 0;
 SC.onOrientationChange = function () {
     // Detect which way orientation works
     var angle = screen && screen.orientation && screen.orientation.angle;
-    console.log('Device angle ' + angle);
+    //console.log('Device angle ' + angle);
     switch (angle) {
     case 90:
         SC.orientDirection = 1;
@@ -36,7 +37,14 @@ if (!window.DeviceOrientationEvent) {
 }
 
 window.addEventListener('deviceorientation', function (event) {
-    SC.dir = SC.orientDirection * SC.orientScale * 13 * event.beta / 90;
+    // read tilt angle and calculate turning strength
+    var b = event.beta;
+    var g = event.gamma;
+    var b2 = b;
+    if (g > 0) {
+        b2 = b > 0 ? 180 - b : -(180 + b);
+    }
+    SC.dir = SC.orientScale * 13 * b2 / 90;
     //SC.hamburger = SC.hamburger || document.getElementById('menu_hamburger');
     //SC.hamburger.textContent = (13 * event.beta / 90).toFixed(3);
 });
