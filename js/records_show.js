@@ -115,7 +115,7 @@ SC.recordsShow = function (aTrackId) {
                 }
                 // diff time
                 if (aColumn === 'diff') {
-                    if (aRow <= 0) {
+                    if (aRow < 0) {
                         return '';
                     }
                     var d = aData[aRow].lap_time - first_time;
